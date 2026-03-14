@@ -3,7 +3,7 @@ title: 非洲象
 date: 2026-03-14
 categories: [動物介紹, 非洲]
 tags: [非洲象, 野生動物, 保育]
-image: https://upload.wikimedia.org/wikipedia/commons/thumb/6/62/Animals_Icon.svg/200px-Animals_Icon.svg.png
+image: https://en.wikipedia.org/wiki/African_elephant#/media/File:African_Elephant_(Loxodonta_africana)_male_(17289351322).jpg
 ---
 
 非洲象，這個地球上最龐大的陸棲動物，不僅是撒哈拉以南草原與森林的霸主，更是維護非洲生態系統的關鍵角色。身為草食性巨獸，牠們透過遷徙覓食與水源開發，為無數物種開闢生存空間；其糞便更是傳播種子的功臣，讓草原與林地得以持續繁衍。可以說，沒有非洲象，非洲大陸的生態平衡將因此崩解。
