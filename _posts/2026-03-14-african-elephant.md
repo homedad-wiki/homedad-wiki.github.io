@@ -3,7 +3,7 @@ title: 非洲象
 date: 2026-03-14
 categories: [動物介紹, 非洲]
 tags: [非洲象, 野生動物, 保育]
-image: https://upload.wikimedia.org/wikipedia/commons/thumb/6/62/Animals_Icon.svg/200px-Animals_Icon.svg.png
+image: https://en.wikipedia.org/wiki/African_elephant#/media/File:African_Elephant_(Loxodonta_africana)_male_(17289351322).jpg
 ---
 
 在非洲遼闊的草原與叢林間，非洲象傲然漫步，這個陸地上最大的哺乳動物，不僅是生態系統的關鍵支柱，更是這片大陸的精神象徵。作為「生態工程師」，牠們以巨大的身形開闢路徑、推倒樹林，為無數動植物創造生存空間，維持著草原與森林的生態平衡。
