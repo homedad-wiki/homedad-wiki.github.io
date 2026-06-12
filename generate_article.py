@@ -24,8 +24,12 @@ WIKIPEDIA_HEADERS = {'User-Agent': 'OpenClaw-Blog/1.0 (Animal Wiki; https://gith
 # Pexels API Key
 PEXELS_API_KEY = "LO13kSPnwxvcNreuuEL8MLNudLXOs6pI2TL71vG9C3uehJwtKD9V6tCA"
 
-# GitHub Token
-GITHUB_TOKEN = "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"
+import os
+
+# GitHub Token（從環境變數讀取）
+GITHUB_TOKEN = os.environ.get("GITHUB_TOKEN", "")
+if not GITHUB_TOKEN:
+    print("⚠️ GITHUB_TOKEN 環境變數未設定，無法推送")
 
 # LLM 模型（使用 cloud 模型）
 OLLAMA_MODEL = "minimax-m2.5:cloud"
