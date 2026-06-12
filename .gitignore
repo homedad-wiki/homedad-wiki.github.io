@@ -26,4 +26,5 @@ package-lock.json
 _sass/vendors
 assets/js/dist
 generate_article.py
+review_and_regenerate.py
 animals_500.csv

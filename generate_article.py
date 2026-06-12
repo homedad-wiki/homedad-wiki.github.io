@@ -24,6 +24,9 @@ WIKIPEDIA_HEADERS = {'User-Agent': 'OpenClaw-Blog/1.0 (Animal Wiki; https://gith
 # Pexels API Key
 PEXELS_API_KEY = "LO13kSPnwxvcNreuuEL8MLNudLXOs6pI2TL71vG9C3uehJwtKD9V6tCA"
 
+# GitHub Token
+GITHUB_TOKEN = "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"
+
 # LLM 模型（使用 cloud 模型）
 OLLAMA_MODEL = "minimax-m2.5:cloud"
 
@@ -120,7 +123,7 @@ def call_llm(prompt, system_prompt=None):
     import sys
     
     if system_prompt is None:
-        system_prompt = "你是一個專業的科普作家，擅長寫給國中生閱讀的動物介紹文章。語言生動活潑，內容豐富有趣。"
+        system_prompt = "你是一個專業的科普作家，擅長寫給國中生閱讀的動物介紹文章。語言生動活潑，內容豐富有趣。請務必使用繁體中文，不要使用簡體字。"
     
     payload = {
         "model": OLLAMA_MODEL,
@@ -152,6 +155,7 @@ def call_llm(prompt, system_prompt=None):
 def generate_intro(name, location):
     """生成文章引言段落"""
     prompt = f"""請為「{name}」寫一段 200 字左右的引言，介紹這種動物是 {location} 的動物。
+請用繁體中文寫作。
 要求：
 - 語言生動，適合國中生閱讀
 - 加入一個有趣的問題來引起讀者興趣
@@ -162,6 +166,7 @@ def generate_intro(name, location):
 def generate_appearance(name, location):
     """生成外觀介紹段落"""
     prompt = f"""請為「{name}」寫一段關於外觀的介紹，約 300 字。
+請用繁體中文寫作。
 要求：
 - 描述{name}的外型特色
 - 說明{name}如何適應 {location} 的環境
@@ -173,6 +178,7 @@ def generate_appearance(name, location):
 def generate_habitat(name, location):
     """生成棲息地介紹段落"""
     prompt = f"""請為「{name}」寫一段關於棲息地的介紹，約 300 字。
+請用繁體中文寫作。
 要求：
 - 描述{name}主要分布在 {location} 的哪些地方
 - 描述這些環境的特色
@@ -184,6 +190,7 @@ def generate_habitat(name, location):
 def generate_diet(name, location):
     """生成食性介紹段落"""
     prompt = f"""請為「{name}」寫一段關於食性的介紹，約 300 字。
+請用繁體中文寫作。
 要求：
 - 說明{name}是草食性、肉食性還是雜食性
 - 描述{name}的獵食或覓食方式
@@ -195,6 +202,7 @@ def generate_diet(name, location):
 def generate_social(name, location):
     """生成社交行為段落"""
     prompt = f"""請為「{name}」寫一段關於社交行為和家庭生活的介紹，約 300 字。
+請用繁體中文寫作。
 要求：
 - 說明{name}是獨居還是群居動物
 - 描述{name}的家庭結構
@@ -206,6 +214,7 @@ def generate_social(name, location):
 def generate_facts(name, location):
     """生成令人驚奇的知識段落"""
     prompt = f"""請提供 4 個關於「{name}」的有趣知識，每個知識用一小段（約 80 字）描述。
+請用繁體中文寫作。
 要求：
 - 每個知識要有標題（用 ### 開頭）
 - 內容要新奇有趣，適合國中生閱讀
@@ -216,6 +225,7 @@ def generate_facts(name, location):
 def generate_conservation(name, location):
     """生成保育行動段落"""
     prompt = f"""請為「{name}」寫一段關於保育的介紹，約 300 字。
+請用繁體中文寫作。
 要求：
 - 說明{name}面臨的威脅和挑戰
 - 建議國中生可以做的保育行動
@@ -227,6 +237,7 @@ def generate_conservation(name, location):
 def generate_title(name, location):
     """用 LLM 生成文章標題"""
     prompt = f"""請為「{name}」生成一個吸引人的文章標題。
+請用繁體中文寫作。
 要求：
 - 標題要包含動物名稱「{name}」
 - 標題要包含地點「{location}」
@@ -234,7 +245,7 @@ def generate_title(name, location):
 - 格式：例如「認識{location}的{name}」或「{name}：{location}的奇妙居民」
 - 直接輸出標題文字，不要加任何裝飾符號
 """
-    result = call_llm(prompt, system_prompt="你是一個標題產生器，擅長生成吸引人的文章標題。直接輸出標題，不要加任何裝飾。")
+    result = call_llm(prompt, system_prompt="你是一個標題產生器，擅長生成吸引人的文章標題。直接輸出標題，不要加任何裝飾。請務必使用繁體中文。")
     if result:
         return result.strip().strip('"').strip("'")
     return f"{name}：{location}的奇妙居民"
@@ -394,6 +405,30 @@ def save_article(animal, content):
     print(f"✅ 文章已儲存: {filepath}")
     return filepath
 
+def push_to_github():
+    """推送到 GitHub"""
+    import subprocess
+    
+    try:
+        # Set remote with token
+        subprocess.run(["git", "remote", "set-url", "origin", f"https://{GITHUB_TOKEN}@github.com/homedad-wiki/homedad-wiki.github.io.git"], 
+                       cwd=BLOG_DIR, check=True)
+        
+        # Add, commit, push
+        subprocess.run(["git", "add", "_posts/"], cwd=BLOG_DIR, check=True)
+        subprocess.run(["git", "commit", "-m", "Add new animal article"], cwd=BLOG_DIR, check=True)
+        result = subprocess.run(["git", "push", "origin", "main"], cwd=BLOG_DIR, capture_output=True, text=True)
+        
+        if result.returncode == 0:
+            print("✅ 已推送到 GitHub")
+            return True
+        else:
+            print(f"❌ Push 失敗: {result.stderr}")
+            return False
+    except Exception as e:
+        print(f"❌ Git 錯誤: {e}")
+        return False
+
 def main():
     """主程式"""
     print("🐾 動物部落格文章生成器")
@@ -411,6 +446,10 @@ def main():
     
     # 儲存文章
     save_article(animal, content)
+    
+    # 推送到 GitHub
+    print("\n📤 推送到 GitHub...")
+    push_to_github()
     
     print("\n✨ 完成！")
 
