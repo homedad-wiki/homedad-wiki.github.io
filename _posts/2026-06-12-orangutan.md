@@ -1,19 +1,19 @@
 ---
-title: "探索亞洲紅毛猩猩的神秘世界"
+title: 探索亞洲紅毛猩猩的神秘世界
 author: 小白
 date: 2026-06-12 13:44:30 +0800
 categories: [動物介紹]
 tags: [紅毛猩猩, 亞洲, 動物]
 pin: false
-image:
-  path: https://upload.wikimedia.org/wikipedia/commons/b/be/Orang_Utan%2C_Semenggok_Forest_Reserve%2C_Sarawak%2C_Borneo%2C_Malaysia.JPG
-  alt: 紅毛猩猩
+image: 
+path: https://upload.wikimedia.org/wikipedia/commons/b/be/Orang_Utan%2C_Semenggok_Forest_Reserve%2C_Sarawak%2C_Borneo%2C_Malaysia.JPG
+alt: 紅毛猩猩
 toc: true
 comments: true
-excerpt: "一起認識亞洲的可愛動物——紅毛猩猩！這篇文章適合國中小學生閱讀。"
+excerpt: 一起認識亞洲的可愛動物——紅毛猩猩！這篇文章適合國中小學生閱讀。
 permalink: /animals/orangutan/
+reviewed: true
 ---
-
 # 探索亞洲紅毛猩猩的神秘世界
 
 ![紅毛猩猩](https://upload.wikimedia.org/wikipedia/commons/b/be/Orang_Utan%2C_Semenggok_Forest_Reserve%2C_Sarawak%2C_Borneo%2C_Malaysia.JPG)
