@@ -1,19 +1,19 @@
 ---
-title: "亞洲爪哇犀牛：瀕臨滅絕的森林巨人"
+title: 亞洲爪哇犀牛：瀕臨滅絕的森林巨人
 author: 小白
 date: 2026-06-14 10:04:27 +0800
 categories: [動物介紹]
 tags: [爪哇犀牛, 亞洲, 動物]
 pin: false
-image:
-  path: https://upload.wikimedia.org/wikipedia/commons/c/ce/Rhinoceros_sondaicus_in_London_Zoo.jpg
-  alt: 爪哇犀牛
+image: 
+path: https://upload.wikimedia.org/wikipedia/commons/c/ce/Rhinoceros_sondaicus_in_London_Zoo.jpg
+alt: 爪哇犀牛
 toc: true
 comments: true
-excerpt: "一起認識亞洲的可愛動物——爪哇犀牛！這篇文章適合國中小學生閱讀。"
+excerpt: 一起認識亞洲的可愛動物——爪哇犀牛！這篇文章適合國中小學生閱讀。
 permalink: /animals/javan_rhinoceros/
+reviewed: true
 ---
-
 # 亞洲爪哇犀牛：瀕臨滅絕的森林巨人
 
 ![爪哇犀牛](https://upload.wikimedia.org/wikipedia/commons/c/ce/Rhinoceros_sondaicus_in_London_Zoo.jpg)
