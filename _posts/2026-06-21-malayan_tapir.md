@@ -1,19 +1,19 @@
 ---
-title: "探索亞洲熱帶雨林：揭開馬來貘的神秘面紗"
+title: 探索亞洲熱帶雨林：揭開馬來貘的神秘面紗
 author: 小白
 date: 2026-06-21 10:01:02 +0800
 categories: [動物介紹]
 tags: [馬來貘, 亞洲, 動物]
 pin: false
-image:
-  path: https://upload.wikimedia.org/wikipedia/commons/thumb/5/58/Schabrackentapir_Tapirus_indicus_Tiergarten-Nuernberg-1.jpg/3840px-Schabrackentapir_Tapirus_indicus_Tiergarten-Nuernberg-1.jpg
-  alt: 馬來貘
+image: 
+path: https://upload.wikimedia.org/wikipedia/commons/thumb/5/58/Schabrackentapir_Tapirus_indicus_Tiergarten-Nuernberg-1.jpg/3840px-Schabrackentapir_Tapirus_indicus_Tiergarten-Nuernberg-1.jpg
+alt: 馬來貘
 toc: true
 comments: true
-excerpt: "一起認識亞洲的可愛動物——馬來貘！這篇文章適合國中小學生閱讀。"
+excerpt: 一起認識亞洲的可愛動物——馬來貘！這篇文章適合國中小學生閱讀。
 permalink: /animals/malayan_tapir/
+reviewed: true
 ---
-
 # 探索亞洲熱帶雨林：揭開馬來貘的神秘面紗
 
 ![馬來貘](https://upload.wikimedia.org/wikipedia/commons/thumb/5/58/Schabrackentapir_Tapirus_indicus_Tiergarten-Nuernberg-1.jpg/3840px-Schabrackentapir_Tapirus_indicus_Tiergarten-Nuernberg-1.jpg)
