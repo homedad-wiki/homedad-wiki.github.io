@@ -1,19 +1,19 @@
 ---
-title: "亞洲熊貓：竹林深處的國寶傳奇"
+title: 亞洲熊貓：竹林深處的國寶傳奇
 author: 小白
 date: 2026-07-05 10:01:29 +0800
 categories: [動物介紹]
 tags: [熊貓, 亞洲, 動物]
 pin: false
-image:
-  path: https://upload.wikimedia.org/wikipedia/commons/thumb/0/0f/Grosser_Panda.JPG/3840px-Grosser_Panda.JPG
-  alt: 熊貓
+image: 
+path: https://upload.wikimedia.org/wikipedia/commons/thumb/0/0f/Grosser_Panda.JPG/3840px-Grosser_Panda.JPG
+alt: 熊貓
 toc: true
 comments: true
-excerpt: "一起認識亞洲的可愛動物——熊貓！這篇文章適合國中小學生閱讀。"
+excerpt: 一起認識亞洲的可愛動物——熊貓！這篇文章適合國中小學生閱讀。
 permalink: /animals/giant_panda/
+reviewed: true
 ---
-
 # 亞洲熊貓：竹林深處的國寶傳奇
 
 ![熊貓](https://upload.wikimedia.org/wikipedia/commons/thumb/0/0f/Grosser_Panda.JPG/3840px-Grosser_Panda.JPG)
