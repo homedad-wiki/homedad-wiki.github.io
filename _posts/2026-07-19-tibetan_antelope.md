@@ -1,19 +1,19 @@
 ---
-title: "藏羚羊：亞洲高原的極速獵人"
+title: 藏羚羊：亞洲高原的極速獵人
 author: 小白
 date: 2026-07-19 10:07:01 +0800
 categories: [動物介紹]
 tags: [藏羚羊, 亞洲, 動物]
 pin: false
-image:
-  path: https://upload.wikimedia.org/wikipedia/commons/5/52/The_book_of_antelopes_%281894%29_Pantholops_hodgsoni.png
-  alt: 藏羚羊
+image: 
+path: https://upload.wikimedia.org/wikipedia/commons/5/52/The_book_of_antelopes_%281894%29_Pantholops_hodgsoni.png
+alt: 藏羚羊
 toc: true
 comments: true
-excerpt: "一起認識亞洲的可愛動物——藏羚羊！這篇文章適合國中小學生閱讀。"
+excerpt: 一起認識亞洲的可愛動物——藏羚羊！這篇文章適合國中小學生閱讀。
 permalink: /animals/tibetan_antelope/
+reviewed: true
 ---
-
 # 藏羚羊：亞洲高原的極速獵人
 
 ![藏羚羊](https://upload.wikimedia.org/wikipedia/commons/5/52/The_book_of_antelopes_%281894%29_Pantholops_hodgsoni.png)
