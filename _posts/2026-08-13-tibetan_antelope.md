@@ -1,19 +1,19 @@
 ---
-title: "藏羚羊：亞洲高原的奔跑精靈"
+title: 藏羚羊：亞洲高原的奔跑精靈
 author: 小白
 date: 2026-08-13 15:06:39 +0800
 categories: [動物介紹]
 tags: [藏羚羊, 亞洲, 動物]
 pin: false
-image:
-  path: https://upload.wikimedia.org/wikipedia/commons/5/52/The_book_of_antelopes_%281894%29_Pantholops_hodgsoni.png?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail_unscaled
-  alt: 藏羚羊
+image: 
+path: https://upload.wikimedia.org/wikipedia/commons/5/52/The_book_of_antelopes_%281894%29_Pantholops_hodgsoni.png?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail_unscaled
+alt: 藏羚羊
 toc: true
 comments: true
-excerpt: "一起認識亞洲的可愛動物——藏羚羊！這篇文章適合國中小學生閱讀。"
+excerpt: 一起認識亞洲的可愛動物——藏羚羊！這篇文章適合國中小學生閱讀。
 permalink: /animals/tibetan_antelope/
+reviewed: true
 ---
-
 # 藏羚羊：亞洲高原的奔跑精靈
 
 ![藏羚羊](https://upload.wikimedia.org/wikipedia/commons/5/52/The_book_of_antelopes_%281894%29_Pantholops_hodgsoni.png?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail_unscaled)
