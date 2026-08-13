@@ -1,19 +1,19 @@
 ---
-title: "亞洲的朱䴉：優雅飛翔的濕地仙子"
+title: 亞洲的朱䴉：優雅飛翔的濕地仙子
 author: 小白
 date: 2026-07-26 10:01:35 +0800
 categories: [動物介紹]
 tags: [朱䴉, 亞洲, 動物]
 pin: false
-image:
-  path: https://upload.wikimedia.org/wikipedia/commons/6/61/Nipponia_nippon_77371852.jpg
-  alt: 朱䴉
+image: 
+path: https://upload.wikimedia.org/wikipedia/commons/6/61/Nipponia_nippon_77371852.jpg
+alt: 朱䴉
 toc: true
 comments: true
-excerpt: "一起認識亞洲的可愛動物——朱䴉！這篇文章適合國中小學生閱讀。"
+excerpt: 一起認識亞洲的可愛動物——朱䴉！這篇文章適合國中小學生閱讀。
 permalink: /animals/crested_ibis/
+reviewed: true
 ---
-
 # 亞洲的朱䴉：優雅飛翔的濕地仙子
 
 ![朱䴉](https://upload.wikimedia.org/wikipedia/commons/6/61/Nipponia_nippon_77371852.jpg)
