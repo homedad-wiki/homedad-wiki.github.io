@@ -1,19 +1,19 @@
 ---
-title: "金絲猴：亞洲山林中的珍貴精靈"
+title: 金絲猴：亞洲山林中的珍貴精靈
 author: 小白
 date: 2026-08-16 10:06:41 +0800
 categories: [動物介紹, 亞洲]
 tags: [金絲猴, 亞洲, 動物]
 pin: false
-image:
-  path: None
-  alt: 金絲猴
+image: 
+path: None
+alt: 金絲猴
 toc: true
 comments: true
-excerpt: "一起認識亞洲的可愛動物——金絲猴！這篇文章適合國中小學生閱讀。"
+excerpt: 一起認識亞洲的可愛動物——金絲猴！這篇文章適合國中小學生閱讀。
 permalink: /animals/golden_snub_nosed_monkey/
+reviewed: true
 ---
-
 # 金絲猴：亞洲山林中的珍貴精靈
 
 ![金絲猴](None)
